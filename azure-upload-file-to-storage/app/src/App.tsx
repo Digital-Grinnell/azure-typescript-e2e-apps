@@ -124,13 +124,13 @@ function App() {
         <Box m={4}>
           {/* App Title */}
           <Typography variant="h4" gutterBottom>
-            Upload file to Azure Storage
+            Upload a File to Secure Digital.Grinnell Azure Storage
           </Typography>
           <Typography variant="h5" gutterBottom>
             with SAS token
           </Typography>
           <Typography variant="body1" gutterBottom>
-            <b>Container: {containerName}</b>
+            <b>Container Name: {containerName}</b>
           </Typography>
 
           {/* File Selection Section */}
@@ -142,7 +142,7 @@ function App() {
             my={4}
           >
             <Button variant="contained" component="label">
-              Select File
+              Click Here to Select One File
               <input type="file" hidden onChange={handleFileSelection} />
             </Button>
             {selectedFile && selectedFile.name && (
