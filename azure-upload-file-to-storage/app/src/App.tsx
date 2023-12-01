@@ -194,7 +194,7 @@ function App() {
             </Box>
           )}
 
-          {/* Uploaded Files Display */}
+          {/* Uploaded Files Display      MAM commented out 1-Dec-2023
           <Grid container spacing={2}>
             {list.map((item) => (
               <Grid item xs={6} sm={4} md={3} key={item}>
@@ -212,7 +212,7 @@ function App() {
                 </Card>
               </Grid>
             ))}
-          </Grid>
+          </Grid>  */}
         </Box>
       </ErrorBoundary>
     </>
